@@ -1,0 +1,8 @@
+{
+    "token": "MTAxMzk5MTU0NzE1MjM3MTc1Mw.GF_TRZ.JrPJkY5AjCdGBVYmJeLCnxz5JoBSUSytvsQkgo",
+    "Prefix": "/",
+    "CustomAPIfilepath": "C:\\Users\\rdpol\\Documents\\GitHub\\Discord-bot-that-utilizes-fifteen.ai\\CustomAPIConfig.json",
+    "SingleAudiofilepath": "C:\\Users\\rdpol\\Documents\\GitHub\\Discord-bot-that-utilizes-fifteen.ai\\audio\\",
+    "CharacterInfoFile": "C:\\Users\\rdpol\\Documents\\GitHub\\Discord-bot-that-utilizes-fifteen.ai\\characters.json",
+    "ffmpeg_location": "C:\\ffmpeg\\bin\\ffmpeg.exe"
+}
