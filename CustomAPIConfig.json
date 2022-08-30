@@ -1,0 +1,28 @@
+{
+    "APIs":[
+        {
+            "ObjectReference":"RandomQuotes",
+            "ReqType":"GET",
+            "BaseAPICall":"https://api.quotable.io/random",
+            "OutputType":"JSON",
+            "JSONPath":"content",
+            "XMLPath":""
+        },
+        {
+            "ObjectReference":"TaggedQuotes",
+            "ReqType":"GET",
+            "BaseAPICall":"https://api.quotable.io/random?tags={0}",
+            "OutputType":"JSON",
+            "JSONPath":"content",
+            "XMLPath":""
+        },
+        {
+            "ObjectReference":"BibliographyExtract",
+            "ReqType":"GET",
+            "BaseAPICall":"https://bnb.data.bl.uk/doc/resource/007446989.xml",
+            "OutputType":"XML",
+            "JSONPath":"",
+            "XMLPath":"/result/primaryTopic/name"
+        }
+    ]
+}
