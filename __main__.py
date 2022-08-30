@@ -14,6 +14,9 @@ import datetime
 from num2words import num2words
 import disnake as discord
 from disnake.ext import commands
+from dotenv import load_dotenv
+load_dotenv()
+
 
 #Getting the JSON data for the 
 #---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
@@ -470,4 +473,4 @@ async def CleanStrings(string_nonASCII):
     return string_decode
 
 #Running the script through the bot
-client.run(Token_info['token'])
+client.run(os.environ.get('TOKEN'))
